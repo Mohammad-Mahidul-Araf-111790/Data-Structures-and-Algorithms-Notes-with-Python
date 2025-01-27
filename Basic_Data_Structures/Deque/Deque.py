@@ -1,6 +1,6 @@
-#"inheriting from Queue" 
-#self.item is the thing of items
-#self.items is the list itself
+# "inheriting from Queue" 
+# self.item is the thing of items
+# self.items is the list itself
 import Queue
 
 class Deque(Queue.Queue):
@@ -21,3 +21,4 @@ class Deque(Queue.Queue):
     
 #don't need to implement size or isEmpty because we can
 #get them from queue
+
